@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <meta name="description" content="Track your expenses easily">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+
+    <section>
+        <h2>Track Your Expenses</h2>
+        <p>Kenyans, watch how to spend your money during riots.</p>
+    </section>
+
+    <form id="registration-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required>
+
+        <button type="submit">Register</button>
+    </form>
+    <br/>
+
+    <img src="https://cdn.pixabay.com/photo/2019/01/25/13/47/beautiful-people-3954533_1280.jpg"width="500"height="500" alt="Expense Tracker Image">
+    
+    <br/>
+
+    <a href="https://google.com" target="_blank">Visit www.google.com for more info</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
